@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_forceAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Bang",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ForceSolution.sol": "ForceSolution"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ForceSolution.sol": {
+			"keccak256": "0x898b8d931a4cf3fefd3a644976a24c2fad326fa112bedee1ab1eecdd314bbb38",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://72953950deb2bb076c2a6e4ca8c12c15c596998566cd884996798d30c3a452c7",
+				"dweb:/ipfs/QmPi33NMHSn2UqEVp7GvF3nmNgzkABwMWZ8Xg2mVbJhoke"
+			]
+		}
+	},
+	"version": 1
+}

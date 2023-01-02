@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "RingRing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "telephoneAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TelephoneSolution.sol": "TelephoneSolution"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Telephone.sol": {
+			"keccak256": "0xc3db88bf8710c5cbf889413a0cd499592847cd951ccd2a94185f95add2e71e4b",
+			"urls": [
+				"bzz-raw://bf55fd443b8cd35e1ade3e4c2c4e0dad6c02879aeb16661b393f39d9be9d21b7",
+				"dweb:/ipfs/QmajBs9w9KdEM6qtDTN2QkCWJD9KpnarYaDGhbffkmkhVj"
+			]
+		},
+		"contracts/TelephoneSolution.sol": {
+			"keccak256": "0x61d47568c664e996f02c88f9daaf993bfe8a8a670176abbd0102a400d227ec9e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://abf75666446c60d7513aaee079cb520bd02a5157c5d4058a94b624776607eab5",
+				"dweb:/ipfs/QmTUweMuT1XqcS3hddGxsGAt2JEwdW5d3wb7MttJAYXcze"
+			]
+		}
+	},
+	"version": 1
+}

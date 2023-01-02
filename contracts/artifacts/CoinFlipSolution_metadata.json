@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "headsOrTails",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinFlipSolution.sol": "CoinFlipSolution"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinFlip.sol": {
+			"keccak256": "0x3206be0d4303cdbed9a49d5d9e011196086aa5c963a40cf0f381c89a7e922801",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1c5ae6c141d6ce4f0fe95d0e9b46ca1d0d1198ad9a7254966a110126b37b38a3",
+				"dweb:/ipfs/QmY8phR8usBe3QY45uvviXmgWSnxKYNhVZtf1d4VtqmQZ8"
+			]
+		},
+		"contracts/CoinFlipSolution.sol": {
+			"keccak256": "0x83c3c852f703239934767f852224e1d36971bb300df8f0daa02d6a9860835c03",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4c15b8a186f96798d1c89137f3b5bc40c86280a82861882685ff09d5595f29e4",
+				"dweb:/ipfs/QmQfeUYk4Gy5b8fPJX6iYFPqdNbiiE9MZgHUUUYj9QVeLc"
+			]
+		}
+	},
+	"version": 1
+}
